@@ -24,6 +24,13 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  border: 1px solid transparent;
+  transition: ease-in-out 0.2s;
+}
+.btn:hover {
+  background: transparent;
+  border-color: #469165;
+  color: #469165;
 }
 /* NonShared Code */
 nav {
@@ -101,6 +108,10 @@ nav ul li a {
   align-items: center;
   cursor: pointer;
   gap: 10px;
+  transition: ease-in-out 0.2s;
+}
+.hero .hero_buttons .btn2:hover {
+  background: #469165;
 }
 .section1 {
   padding: 0 120px;
