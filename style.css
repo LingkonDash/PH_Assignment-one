@@ -174,7 +174,7 @@ nav ul li a {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  top: -80px;
+  top: -90px;
   background-color: #FFFFFF;
   padding: 120px;
   gap: 60px;
@@ -263,4 +263,9 @@ footer .copyright {
   color: #fafafad0;
   font-size: 16px;
   line-height: 24px;
+}
+.btn2_hover:hover {
+  background-color: #54e690;
+  color: #ffffff;
+  border: 1px solid transparent;
 }
