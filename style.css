@@ -102,3 +102,59 @@ nav ul li a {
   cursor: pointer;
   gap: 10px;
 }
+.section1 {
+  padding: 0 120px;
+}
+.section1 h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  text-align: center;
+  margin-top: 80px;
+}
+.section1 p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  text-align: center;
+  margin: 16px 0 44px;
+}
+.section1 .card_parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.section1 .card_parent .card {
+  height: 400px;
+  padding: 70px 24px 24px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 8px #0000001f;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section1 .card_parent .card .img_bg {
+  background-color: #F95555;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .card_parent .card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  margin: 16px 0;
+}
+.section1 .card_parent .card p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
