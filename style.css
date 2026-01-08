@@ -158,3 +158,43 @@ nav ul li a {
   line-height: 20px;
   color: #627382;
 }
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -80px;
+  background-color: #FFFFFF;
+  padding: 120px;
+  gap: 60px;
+}
+.section2 .section2_content .headline{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #469165;
+}
+.section2 .section2_content h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin: 16px 0;
+}
+.section2 .section2_content .para {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+.section2 .section2_content .options {
+  margin-top: 40px;
+}
+.section2 .section2_content .options div {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  color: #001931;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
