@@ -225,3 +225,31 @@ nav ul li a {
   color: #627382;
   margin-top: 16px;
 }
+footer {
+  padding: 120px 120px 0;
+  background-color: #001931;
+}
+footer .fcontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+footer .fcontent .social {
+  margin-right: 107px;
+}
+footer .fcontent .social .p1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+footer .copyright {
+  border-top: 1px solid #e5e7eb83;
+  padding: 30px;
+  text-align: center;
+  color: #fafafad0;
+  font-size: 16px;
+  line-height: 24px;
+}
