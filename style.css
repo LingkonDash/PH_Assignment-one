@@ -264,6 +264,11 @@ footer .copyright {
   font-size: 16px;
   line-height: 24px;
 }
+.btn_hover:hover {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid white;
+}
 .btn2_hover:hover {
   background-color: #54e690;
   color: #ffffff;
